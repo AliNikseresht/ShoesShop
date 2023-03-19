@@ -1,0 +1,88 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(249, 249, 223) !important;
+}
+
+.fic {
+  font-size: 12px;
+}
+.fic figcaption {
+  transition: 0.2s;
+  cursor: pointer;
+  margin-bottom: 10px !important;
+}
+.fic figcaption:hover {
+  color: #e24647;
+}
+.fic i {
+  color: rgb(143, 143, 143);
+  padding: 1px !important;
+  font-size: 15px;
+  transition: 0.2s;
+}
+.fic i:hover {
+  color: #e8e840;
+}
+.fic div {
+  font-size: 22px;
+  color: #e24647;
+}
+
+li {
+  list-style-type: none;
+  overflow: hidden;
+  transition: 4s;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}
+
+.show {
+  height: 350px;
+  transition: 4s;
+}
+
+.hide {
+  display: none;
+  transition: 0.4s;
+}
+
+.top li {
+  cursor: pointer;
+  transition: 0.2s;
+}
+.top li:hover {
+  color: #e24647;
+}
+.top input {
+  border: 2px solid rgb(32, 32, 32);
+}
+
+footer div a {
+  padding: 10px !important;
+  color: rgb(30, 28, 28);
+  font-size: 21px;
+  transition: 0.4s;
+}
+footer div a:hover {
+  color: #e24647;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(30, 28, 28);
+  font-size: 19px;
+}
+footer a strong {
+  transition: 0.3s;
+}
+footer a strong:hover {
+  color: #e24647;
+}/*# sourceMappingURL=index-Shop.css.map */
